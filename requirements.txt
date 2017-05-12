@@ -11,3 +11,4 @@ Werkzeug==0.12
 polyline==1.3.2
 geopy==1.11.0
 requests>=2.12
+gunicorn

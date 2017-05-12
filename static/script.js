@@ -47,7 +47,7 @@ marker2 = new google.maps.Marker({
     });
 
 var onClickHandler = function() {
-fetch("https://gwtw.herokuapp.com/q/"+getStart()+"&"+getDestination())
+fetch("http://gwtw.herokuapp.com/q/"+getStart()+"&"+getDestination())
 .then((resp) => resp.json())
 .then(function(data) {
     start = getStart();
