@@ -20,4 +20,4 @@ def index(r):
 
 if __name__ == '__main__':
     application.run(debug=True)
-    application.run('', int(os.environ.get('PORT', 8000)))
+    application.run()
