@@ -1,1 +1,1 @@
-web: gunicorn --pythonpath application application:application
+web: gunicorn application:application
