@@ -47,7 +47,7 @@ marker2 = new google.maps.Marker({
     });
 
 var onClickHandler = function() {
-fetch("http://localhost:5000/q/"+getStart()+"&"+getDestination())
+fetch("https://fast-tor-24142.herokuapp.com/q/"+getStart()+"&"+getDestination())
 .then((resp) => resp.json())
 .then(function(data) {
     start = getStart();
